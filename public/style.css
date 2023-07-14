@@ -1,0 +1,25 @@
+html,body{
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home-page {
+    height: 100vh;
+}
+
+.home-page .login {
+    color: rgb(26, 71, 174);
+    text-decoration: underline;
+}
+
+.home-page .login:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.home-page .note {
+    padding: 10px 15px;
+    border: 1px solid rgb(55, 52, 52);
+    border-radius: 15px;
+    font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.login-page {
+    min-height: 100vh;
+}
+
+.login-page .login-box {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.login-page .login-box .title {
+    font-size: 18px;
+    font-weight: 600;
+}

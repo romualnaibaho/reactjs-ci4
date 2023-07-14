@@ -1,0 +1,46 @@
+.dashboard {
+    width: 99vw;
+}
+
+.sidebar-menu {
+    padding: 20px 30px;
+    border: 1px solid rgba(211, 211, 211, 0.38);
+    border-left: none;
+    min-height: 100vh;
+}
+
+.sidebar-menu .menu {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.38);
+}
+
+.active {
+    border-left: 2px solid rgb(12, 54, 138);
+    padding-left: 15px !important;
+}
+
+.sidebar-menu .menu:hover {
+    cursor: pointer;
+    border-left: 2px solid rgb(12, 54, 138);
+    padding-left: 15px;
+}
+
+.top-bar {
+    height: 4.71rem;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.user-icon {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid rgb(55, 52, 52);
+}
+
+.logout {
+    cursor: pointer;
+}
