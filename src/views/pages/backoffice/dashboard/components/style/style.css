@@ -2,10 +2,22 @@
     padding: 0 20px;
 }
 
-.delete:hover {
+.image-container {
+    border: 1px dashed grey;
+    border-radius: 5px;
+    padding: 60px 0;
+    width: 100%;
+}
+
+.cursor-pointer {
     cursor: pointer;
 }
 
-.status:hover {
-    cursor: pointer;
+.image-icon {
+    font-size: 100px;
+    color: grey;
+}
+
+.btn-upload {
+    background-color: white;
 }
